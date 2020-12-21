@@ -152,6 +152,7 @@ i {
 
 
 .description-container{
+    height: 75vh;
     display: flex;
     flex-direction: column;
     margin: 20px;
@@ -205,18 +206,21 @@ i {
     display: block;
     width: 100%;
     overflow: hidden;
+    filter: brightness(0.8);
 }
 
 .showcase-image:hover {
     /* width:100%; */
     transform: scale(0.9);
+    filter: brightness(1);
     transition: 0.3s;
     
 }
 
 .how-it-work {
+    height:70vh;
+    width:100vw;
     position: relative;
-    width: 100vw;
     display: inline-block;
     background-color:rgb(244,244,244);
     /* display: flex;
@@ -230,12 +234,12 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* text-align:left; */
+    text-align:right;
     /* flex-direction: row; */
 }
 
 .iphone {
-    width:200px;
+    width:30%;
 }
 
 .how-it-work-p {
@@ -270,6 +274,7 @@ i {
 
 .cities-section {
     width: 100vw;
+    height: 50vh;
     padding-top: 20px;
     padding-bottom: 40px;
 }
@@ -510,7 +515,12 @@ footer ul{
     }
 
     .description-container{
+        height:100%;
         flex-direction: column;
+    }
+    
+    .cities-section {
+        height:100%
     }
     
     .section-title{
@@ -519,6 +529,9 @@ footer ul{
     
     .four-description{
         flex-direction: column;
+    }
+    .how-it-work{
+        height: 100%;
     }
 
     .how-it-work-container{
