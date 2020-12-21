@@ -217,8 +217,12 @@ i {
 .how-it-work {
     position: relative;
     width: 100vw;
-    display: block;
-    /* background-color: rgba(227, 223, 223, 0.708); */
+    display: inline-block;
+    background-color:rgb(244,244,244);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    
 }
 
 .how-it-work-container{
@@ -226,8 +230,8 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align:left;
-    flex-direction: row;
+    /* text-align:left; */
+    /* flex-direction: row; */
 }
 
 .iphone {
@@ -347,9 +351,11 @@ i {
 .pricing-section{
     padding-top: 50px;
     padding-bottom: 50px;
+    background-color:rgb(244,244,244);
 }
 
 .pricing-container {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -378,6 +384,16 @@ i {
 
 .pricing-description{
     text-align: left;
+}
+
+.pricing-description-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.pricing-description-container ion-icon{
+    padding-top: 5px;
+    color:#e67e22;
 }
 
 .pricing-button {
